@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/15/2025 15:22:19
+#Project Location: C:/Users/Nathan/Documents/GitHub/Odin/hardware/lattice; Project name: Odin
+prj_project new -name "Odin" -impl "impl1" -dev LFE5U-85F-7BG381I -synthesis "lse"
+prj_project save
+#Stop recording: 9/15/2025 17:45:00
