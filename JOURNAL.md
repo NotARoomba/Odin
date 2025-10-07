@@ -10,7 +10,7 @@ This is my journal of the design and building process of **Odin**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/289).
 
 
-## 10/7/2025 - September 14: Planning  
+## 10/7/2025 3:31 PM - September 14: Planning  
 
 # September 14: Planning
 
@@ -43,4 +43,15 @@ I started by finding a USB hub that has seven ports to connect all the chips, an
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTMzLCJwdXIiOiJibG9iX2lkIn19--52231c3babaaf81be7956bb2415bc8fa7769de80/image.png)
   
+
+## 10/7/2025 3:33 PM - September 15: More Schematic Design  
+
+I started working on the other chips' designs, more specifically the CH32V003. I was looking into how to connect it to USB-C and found an open-source repo that bitbangs two pins to create a USB interface to program it: https://github.com/cnlohr/rv003usb.
+
+After wiring that up I finished with the ATmega and then started working on the FPGA. I had no idea how to connect an FPGA beforehand, but I saw Cheyao's icepi, so I at least had a reference design for the HMI and USB-C ports: https://github.com/cheyao/icepi-zero. I still got stuck as I had to plan everything, looking at both the footprint and the reference schematic, and also a sheet that lists every pin for both FPGAs that I made.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTM0LCJwdXIiOiJibG9iX2lkIn19--ed099dc00aaafeaff9202abd9f1c44403e6d0bb4/image.png)
+
+
+It was mentally straining and I was feeling burned out, so I went to sleep.  
 
