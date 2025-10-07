@@ -55,3 +55,12 @@ After wiring that up I finished with the ATmega and then started working on the 
 
 It was mentally straining and I was feeling burned out, so I went to sleep.  
 
+## 10/7/2025 3:35 PM - September 16: Finished FPGA and Start of ~~K230~~  
+
+I finally finished the FPGA and the nRF chip (still need to add headers on all of the chips) and then decided to start on the K230, as it is a machine learning chip and I wanted this board to be super powerful.
+
+After a while looking into the documentation I decided to scrap the K230 for time purposes and also because it was too complicated in the current timeframe, so I opted for something retro to learn how to write assembly: PIC18F4550
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTM1LCJwdXIiOiJibG9iX2lkIn19--21b401a01a1256afda9ef48b6f3aabd44d7625ab/image.png)
+  
+
