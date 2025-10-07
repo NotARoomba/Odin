@@ -64,3 +64,40 @@ After a while looking into the documentation I decided to scrap the K230 for tim
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTM1LCJwdXIiOiJibG9iX2lkIn19--21b401a01a1256afda9ef48b6f3aabd44d7625ab/image.png)
   
 
+## 10/7/2025 3:48 PM - Future Steps  
+
+I had started this project during Grounded but I got really burnt out for a while and didn't want to touch any project at all so now I'm trying to get back in to finish this project so I can work on another flight controller (@CAN ts ones gonna be better). 
+
+The most time consuming and tedious part is placing all of the headers and putting them in the right places for each microcontroller. I am starting with the ESP32 and then working my way around the board but I should really start with the side opposite of the FPGA (bc the FPGA has alot of pins lmao). I'm gonna start wiring that up bit by bit and also complete some of the schematics for the PIC and add in any other peripherals that I would need (sensors?, LED's?)
+
+## Current State of the project / Schematics
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTM2LCJwdXIiOiJibG9iX2lkIn19--cdd10de3beca81ec74ba3b56cc215a54b9b7e70c/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTM3LCJwdXIiOiJibG9iX2lkIn19--a4d283c282585338e010a25526a23df295e4dd7a/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTM4LCJwdXIiOiJibG9iX2lkIn19--f0f679ec111c2e4f93a75784fd28c3e205713249/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQwLCJwdXIiOiJibG9iX2lkIn19--7f95ada1aff12db56c79569b3f4fd82cef0c89ad/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQxLCJwdXIiOiJibG9iX2lkIn19--b705110af0c9ded792067194d74a6b471f582a80/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQyLCJwdXIiOiJibG9iX2lkIn19--efdf50b514684daa4d76d72f8c4d3886c3910998/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQzLCJwdXIiOiJibG9iX2lkIn19--dc787442a4bb6a803317ba86f83a0c2e7322a4f9/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQ0LCJwdXIiOiJibG9iX2lkIn19--f24f8e7ba8915b8b7082406fe320019daef59cc0/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQ1LCJwdXIiOiJibG9iX2lkIn19--66c5767a7c1cceefa191d98e20148462d22bdae9/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQ2LCJwdXIiOiJibG9iX2lkIn19--1a3ca2d9fe15a514e45aedef8fa2928f72934e18/image.png)
+
+## PCB (WIP)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTQ3LCJwdXIiOiJibG9iX2lkIn19--5bc5c2fa7adfabade452773ba3578a8318aed840/image.png)
+
+
+
+
+  
+
