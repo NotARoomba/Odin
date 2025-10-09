@@ -101,3 +101,22 @@ The most time consuming and tedious part is placing all of the headers and putti
 
   
 
+## 10/9/2025 - Finished component placement  
+
+I started working on the component placement and where each chip was going to be, I also counted how many free pins I have with the headers and in total there are 528 total header pins and I am using ~~460~~ (now less bc I dont want to connect the logic gates to the outside and have more space for VCC/GND pins)  for just the pins that are free on the chips, not including ground/the separate VCC. 
+
+I then took a bit of a break and started working on the layout
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE3NSwicHVyIjoiYmxvYl9pZCJ9fQ==--2762356439c2e64609be65ee825b1c14185e6de4/image.png)
+
+I decided to organize the chips depending on how many pins they used to use up a connector completely but then I realized that I wasn't taking into consideration the GND/VCC pins that you usually see in a devboard for each processor (bc each processor will have its own buck converter for current considerations (might group chips if it comes out too costly). So then I just arranged them in a circle in no particular order (except for the FPGA).
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTI3MCwicHVyIjoiYmxvYl9pZCJ9fQ==--10fd55c9385e100c71e500915d7daf8b9ccaa2a6/image.png)
+(had to count the empty pins and guesstimate on a piece of paper the layout and how many headers it would take up)
+
+
+After that I finished the layout for all of the buck converters and and gonna finish the placements and then start adding the headers for each chip (kms).
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTI2OSwicHVyIjoiYmxvYl9pZCJ9fQ==--91d6735e613d2baca4fee1bad512f56d4ef41377/image.png)
+  
+
